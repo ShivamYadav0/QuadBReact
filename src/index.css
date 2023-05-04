@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 @layer components {
-  svg{
-    z-index:9999;
+  svg {
+    z-index: 9999;
     color: #000;
   }
   .btn-grad {
@@ -37,22 +37,26 @@
       #80d0c7 45%,
       #252222 100%
     ); */
-    background:#fff;
+    background: #fff;
   }
   .btn-grad-vue {
     background: linear-gradient(
       72.47deg,
-      rgb(115,103,240) 22.16%,
-      rgba(115,103,240, 0.7) 76.47%
+      rgb(115, 103, 240) 22.16%,
+      rgba(115, 103, 240, 0.7) 76.47%
     ) !important;
     box-shadow: 0 2px 6px rgba(47, 43, 61, 0.48);
     font-weight: 500;
   }
- a:active{
+  a:hover,
+  button:hover {
+    transform: scale(1.04);
+  }
+  a:active {
     background: linear-gradient(
       72.47deg,
-      rgb(115,103,240) 22.16%,
-      rgba(115,103,240, 0.7) 76.47%
+      rgb(115, 103, 240) 22.16%,
+      rgba(115, 103, 240, 0.7) 76.47%
     ) !important;
     box-shadow: 0 2px 6px rgba(47, 43, 61, 0.48);
     font-weight: 500;
